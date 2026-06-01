@@ -1,64 +1,64 @@
 # 🚀 Design and Analysis of Algorithms Lab
 
-A collection of **Design and Analysis of Algorithms (DAA)** laboratory programs implemented in **C Programming** during the **3rd Semester** of B.Tech Computer Science Engineering.
+A collection of **Design and Analysis of Algorithms (DAA)** laboratory programs implemented in **C Programming** as part of the **3rd Semester B.Tech Computer Science Engineering** curriculum.
 
-This repository contains implementations of fundamental algorithms and problem-solving techniques including **Divide & Conquer**, **Greedy Algorithms**, **Dynamic Programming**, **Graph Algorithms**, **Backtracking**, **Branch & Bound**, and **String Matching**.
+This repository showcases the implementation and analysis of classical algorithms using various design paradigms, including **Divide & Conquer**, **Greedy Methods**, **Dynamic Programming**, **Graph Algorithms**, **Backtracking**, **Branch & Bound**, and **String Matching Techniques**.
 
 ---
 
 ## 📚 Lab Overview
 
-| Lab | Topic                 | Algorithm(s)                                         |
-| --- | --------------------- | ---------------------------------------------------- |
-| 1   | Binary Search Tree    | Insert Node, Inorder Traversal                       |
-| 2   | Divide & Conquer      | Merge Sort                                           |
-| 2   | Divide & Conquer      | Quick Sort                                           |
-| 3   | Matrix Multiplication | Standard Matrix Multiplication                       |
-| 3   | Matrix Multiplication | Strassen's Matrix Multiplication                     |
-| 4   | Greedy Algorithm      | Activity Selection Problem                           |
-| 5   | Dynamic Programming   | Matrix Chain Multiplication                          |
-| 6   | Graph Algorithms      | Dijkstra's & Bellman-Ford Algorithms                 |
-| 7   | Knapsack Problem      | Greedy & Dynamic Programming Approaches              |
-| 8   | Backtracking          | Subset Sum Problem                                   |
-| 9   | Knapsack Problem      | Dynamic Programming, Backtracking & Branch and Bound |
-| 10  | String Matching       | Naive, Rabin-Karp & KMP Algorithms                   |
+| Lab | Topic | Algorithm(s) |
+|------|--------|-------------|
+| 1 | Binary Search Tree | Node Insertion, Inorder Traversal |
+| 2 | Sorting Algorithms | Merge Sort |
+| 2 | Sorting Algorithms | Quick Sort |
+| 3 | Matrix Multiplication | Standard Matrix Multiplication |
+| 3 | Matrix Multiplication | Strassen's Matrix Multiplication |
+| 4 | Greedy Algorithms | Activity Selection Problem |
+| 5 | Dynamic Programming | Matrix Chain Multiplication |
+| 6 | Graph Algorithms | Dijkstra's Algorithm, Bellman-Ford Algorithm |
+| 7 | Knapsack Problem | Fractional Knapsack (Greedy), 0/1 Knapsack (DP) |
+| 8 | Backtracking | Subset Sum Problem |
+| 9 | Knapsack Problem | Dynamic Programming, Backtracking, Branch and Bound |
+| 10 | String Matching | Naive String Matching, Rabin-Karp, KMP |
 
 ---
 
 ## 🧠 Topics Covered
 
-* Binary Search Trees (BST)
-* Sorting Algorithms
+- **Data Structures**
+  - Binary Search Tree (BST)
 
-  * Merge Sort
-  * Quick Sort
-* Matrix Multiplication
+- **Sorting Algorithms**
+  - Merge Sort
+  - Quick Sort
 
-  * Standard Method
-  * Strassen's Algorithm
-* Greedy Algorithms
+- **Divide & Conquer**
+  - Strassen's Matrix Multiplication
 
-  * Activity Selection
-  * Fractional Knapsack
-* Dynamic Programming
+- **Greedy Algorithms**
+  - Activity Selection Problem
+  - Fractional Knapsack
 
-  * Matrix Chain Multiplication
-  * 0/1 Knapsack
-* Graph Algorithms
+- **Dynamic Programming**
+  - Matrix Chain Multiplication
+  - 0/1 Knapsack
 
-  * Dijkstra's Algorithm
-  * Bellman-Ford Algorithm
-* Backtracking
+- **Graph Algorithms**
+  - Dijkstra's Algorithm
+  - Bellman-Ford Algorithm
 
-  * Subset Sum Problem
-* Branch and Bound
+- **Backtracking**
+  - Subset Sum Problem
 
-  * 0/1 Knapsack
-* String Matching
+- **Branch and Bound**
+  - 0/1 Knapsack
 
-  * Naive Pattern Matching
-  * Rabin-Karp Algorithm
-  * Knuth-Morris-Pratt (KMP)
+- **String Matching Algorithms**
+  - Naive Pattern Matching
+  - Rabin-Karp Algorithm
+  - Knuth-Morris-Pratt (KMP)
 
 ---
 
@@ -67,35 +67,35 @@ This repository contains implementations of fundamental algorithms and problem-s
 ```text
 Algorithms_Lab_3rd_Sem/
 │
-├── Lab 1
-├── Lab 2 _Merge sort
-├── Lab 2_Quick sort
+├── Lab 1                          # Binary Search Tree
+├── Lab 2 _Merge sort              # Merge Sort
+├── Lab 2_Quick sort               # Quick Sort
 ├── Lab 3_Standard matrix multiplication
 ├── Lab 3_Strassen multiplication
-├── Lab 4
-├── Lab 5
-├── Lab 6
-├── Lab 7
-├── Lab 8
-├── Lab 9
-└── Lab 10
+├── Lab 4                          # Activity Selection Problem
+├── Lab 5                          # Matrix Chain Multiplication
+├── Lab 6                          # Dijkstra & Bellman-Ford
+├── Lab 7                          # Knapsack Problem
+├── Lab 8                          # Subset Sum Problem
+├── Lab 9                          # Knapsack (DP, Backtracking, B&B)
+└── Lab 10                         # String Matching Algorithms
 ```
 
 ---
 
 ## 🛠️ Technologies Used
 
-| Technology             | Purpose                  |
-| ---------------------- | ------------------------ |
-| C Programming          | Algorithm Implementation |
-| GCC                    | Compilation & Execution  |
-| VS Code / Code::Blocks | Development Environment  |
+| Technology | Purpose |
+|------------|---------|
+| C Programming | Algorithm Implementation |
+| GCC | Compilation & Execution |
+| VS Code / Code::Blocks | Development Environment |
 
 ---
 
 ## ▶️ Compilation & Execution
 
-Compile any program:
+Compile a program:
 
 ```bash
 gcc filename.c -o output
@@ -118,24 +118,29 @@ output.exe
 
 ## 🎯 Learning Outcomes
 
-* Understanding algorithm design paradigms
-* Analyzing time and space complexity
-* Implementing classical algorithms in C
-* Applying optimization techniques
-* Solving computational problems efficiently
-* Comparing multiple approaches to the same problem
+Through these laboratory exercises, the following concepts were explored:
+
+- Algorithm design and analysis
+- Time and space complexity evaluation
+- Recursive problem solving
+- Divide & Conquer strategies
+- Greedy optimization techniques
+- Dynamic Programming approaches
+- Graph traversal and shortest-path algorithms
+- Backtracking and Branch & Bound methods
+- String pattern matching techniques
 
 ---
 
 ## 🎓 Academic Information
 
-|              |                                              |
-| ------------ | -------------------------------------------- |
-| **Course**   | Design and Analysis of Algorithms Laboratory |
-| **Semester** | 3rd Semester                                 |
-| **Program**  | B.Tech Computer Science Engineering          |
-| **Language** | C Programming                                |
+| | |
+|---|---|
+| **Course** | Design and Analysis of Algorithms Laboratory |
+| **Semester** | 3rd Semester |
+| **Program** | B.Tech Computer Science Engineering |
+| **Language** | C Programming |
 
 ---
 
-⭐ Feel free to explore the implementations and learn different algorithmic approaches used in solving real-world computational problems.
+⭐ This repository serves as a practical reference for students learning algorithm design and analysis through hands-on implementation in C.
